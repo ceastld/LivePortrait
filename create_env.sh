@@ -9,3 +9,4 @@ pip install -r requirements.txt
 pip install onnxruntime-gpu==1.18.0
 
 huggingface-cli download KwaiVGI/LivePortrait --local-dir pretrained_weights --exclude "*.git*" "README.md" "docs"
+# see [E:onnxruntime:Default, provider_bridge_ort.cc:1992 onnxruntime::TryGetProviderInfo_CUDA · Issue #22019 · microsoft/onnxruntime](https://github.com/microsoft/onnxruntime/issues/22019)
